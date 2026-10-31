@@ -291,6 +291,107 @@ body {
 }
 
 /* Deals Page (Muhammad Saad Javed)  */
+.deals-body {
+  background: #f7f6f1;
+  color: #1c2b27;
+  line-height: 1.6;
+}
+
+.deals-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 32px;
+  background: #723a53;
+}
+
+.deals-brand {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f2b705;
+  text-decoration: none;
+}
+
+.deals-nav a {
+  margin-left: 20px;
+  color: #f7f6f1;
+  text-decoration: none;
+}
+
+.deals-nav a:hover,
+.deals-nav a[aria-current="page"] {
+  color: #f2b705;
+  text-decoration: underline;
+}
+
+.deals-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px 56px;
+}
+
+.deals-main h1 {
+  margin: 0 0 8px;
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.deal-card {
+  padding: 20px 24px;
+  border: 2px solid #723a53;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.deal-card h3 {
+  margin-top: 0;
+  font-family: Georgia, serif;
+  color: #723a53;
+}
+
+.deal-price {
+  font-weight: bold;
+  color: #723a53;
+}
+
+.deals-footer {
+  padding: 20px;
+  background: #723a53;
+  color: #f7f6f1;
+  text-align: center;
+}
+
+.deals-footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .deals-header {
+    padding: 14px 16px;
+  }
+
+  .deals-nav a {
+    margin: 0 14px 0 0;
+  }
+
+  .deals-main {
+    padding: 24px 16px 40px;
+  }
+
+  .deals-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Order Page (Hira Khan) */
 /* Improved Order Page Styles & Responsive Media Query */
