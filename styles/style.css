@@ -1,6 +1,7 @@
 /* ===== Shared Styles ===== */
 /* Members tawja here ye shared banaii hy take conflicts aye: add your page styles under your own comment header below. */
 
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -291,6 +292,32 @@ body {
 
 /* Deals Page (Muhammad Saad Javed)  */
 
-/*  Order Page (Hira Khan) */
+/* Order Page (Hira Khan) */
+.order-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
 
-/*  Feedback Page (Aiman)  */
+.order-container h2 {
+    color: #333;
+}
+
+.cafeteria-rules {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .order-container {
+        padding: 10px;
+    }
+    
+    .order-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Feedback Page (Aiman) */
