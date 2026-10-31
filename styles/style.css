@@ -1,11 +1,11 @@
 /* ===== Shared Styles ===== */
+/* Members tawja here ye shared banaii hy take conflicts aye: add your page styles under your own comment header below. */
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-
 
 /* =Home Page (Khadija Arshad)  */
 .home-body {
@@ -291,6 +291,7 @@ body {
 /* Deals Page (Muhammad Saad Javed)  */
 
 /* Order Page (Hira Khan) */
+/* Improved Order Page Styles & Responsive Media Query */
 .order-container {
     max-width: 800px;
     margin: 20px auto;
@@ -342,6 +343,7 @@ body {
     margin-bottom: 8px;
 }
 
+/* Responsive Media Query for Mobile Screens */
 @media (max-width: 768px) {
     .order-container {
         padding: 10px;
