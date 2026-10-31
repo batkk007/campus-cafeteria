@@ -293,30 +293,71 @@ body {
 /* Deals Page (Muhammad Saad Javed)  */
 
 /* Order Page (Hira Khan) */
+/* Improved Order Page Styles & Responsive Media Query */
 .order-container {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
-}
-
-.order-container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
 }
 
-.cafeteria-rules {
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
+.order-container h2 {
+    color: #b30000;
+    margin-bottom: 10px;
 }
 
-/* Responsive Media Query */
+.intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.order-steps {
+    background-color: #fff;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.order-steps li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.cafeteria-rules {
+    background-color: #fdf2f2;
+    padding: 20px;
+    border-left: 5px solid #b30000;
+    border-radius: 4px;
+}
+
+.cafeteria-rules h3 {
+    margin-top: 0;
+    color: #b30000;
+}
+
+.cafeteria-rules ul {
+    margin: 10px 0 0 20px;
+}
+
+.cafeteria-rules li {
+    margin-bottom: 8px;
+}
+
+/* Responsive Media Query for Mobile Screens */
 @media (max-width: 768px) {
     .order-container {
         padding: 10px;
+        margin: 10px;
     }
-    
+
+    .order-steps {
+        padding: 15px 15px 15px 25px;
+    }
+
     .order-container h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
