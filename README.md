@@ -14,8 +14,8 @@ feedback.html
 Team Lead:KHADIJA-ARSHAD
 Member 1:SAAD-BIN-KHALID
 Member 2:SAAD-JAVED
-Member 3:name abhi ni confirm
-Member 4:name abhi ni confirm
+Member 3:HIRA KHAN
+Member 4:AIMAN
 
                        Technalogia
 Plain HTML and CSS. No backend or JavaScript framework.
